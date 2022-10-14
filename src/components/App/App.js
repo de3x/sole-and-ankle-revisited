@@ -21,18 +21,13 @@ const App = () => {
 
 const Main = styled.main`
   padding: 64px 32px;
-  /* 
-  // Test to see if QUERIES work
-  @media ${QUERIES.laptopAndSmaller} {
-    background: yellow;
-  }
 
   @media ${QUERIES.tabletAndSmaller} {
-    background: red;
+    padding: 48px 32px;
   }
   @media ${QUERIES.phoneAndSmaller} {
-    background: fuchsia;
-  } */
+    padding: 48px 16px;
+  }
 `;
 
 export default App;
